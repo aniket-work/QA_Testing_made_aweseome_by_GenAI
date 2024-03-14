@@ -1,0 +1,73 @@
+{
+  "question_html": {
+    "div": {
+      "style": "background-color: #f0f0f0; padding: 16px; border-radius: 8px;",
+      "children": [
+        {
+          "tag": "h3",
+          "attributes": {
+            "style": "margin-top: 0;"
+          },
+          "text": "Your Question:"
+        },
+        {
+          "tag": "p",
+          "attributes": {
+            "style": "font-size: 16px; font-weight: bold;"
+          },
+          "text": "{question}"
+        }
+      ]
+    }
+  },
+  "spinner_html": {
+    "style": {
+      "@keyframes spinner-rotation": {
+        "from": {
+          "transform": "rotate(0deg)"
+        },
+        "to": {
+          "transform": "rotate(360deg)"
+        }
+      },
+      ".spinner": {
+        "width": "48px",
+        "height": "48px",
+        "border-radius": "50%",
+        "border": "8px solid #f3f3f3",
+        "border-top": "8px solid #3498db",
+        "animation": "spinner-rotation 1s linear infinite"
+      }
+    },
+    "div": {
+      "style": "display: flex; justify-content: center; align-items: center; margin-top: 20px;",
+      "children": [
+        {
+          "tag": "div",
+          "class": "spinner"
+        }
+      ]
+    }
+  },
+  "response_html": {
+    "div": {
+      "style": "background-color: #e6f7ff; padding: 16px; border-radius: 8px;",
+      "children": [
+        {
+          "tag": "h3",
+          "attributes": {
+            "style": "margin-top: 0;"
+          },
+          "text": "Response:"
+        },
+        {
+          "tag": "p",
+          "attributes": {
+            "style": "font-size: 16px;"
+          },
+          "text": "{response}"
+        }
+      ]
+    }
+  }
+}

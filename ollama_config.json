@@ -1,0 +1,16 @@
+{
+    "model": "llava",
+    "temperature": null,
+    "max_tokens": null,
+    "top_p": null,
+    "n": null,
+    "best_of": null,
+    "request_timeout": null,
+    "logit_bias": null,
+    "verbose": null,
+    "api_key": null,
+    "load_llama": null,
+    "use_avx": null,
+    "use_cache": null,
+    "cache_dir": null
+}
